@@ -1,0 +1,17 @@
+{%extends 'base.template.html'%}
+
+{%block content%}
+
+<form method="POST">
+    <div>
+        <label>Product Line</label>
+        <input type="text" class="form-control" name="productLine"/>
+    </div>
+    <div>
+        <label>Description</label>
+        <input type="text" class="form-control" name="textDescription"/>
+    </div>
+    <input type="submit" name="product-btn"/>
+</form>
+
+{%endblock%}
