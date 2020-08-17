@@ -1,0 +1,13 @@
+{%extends 'base.template.html'%}
+
+{% block content %}
+<h1> Create New Customer</h1>
+<form method="POST">
+<!-- to ensure that empty form input will not result in a error -->
+    {%with customer={}%}
+        {% include 'customer_form.template.html' %}
+    {&endwith%%}
+    <input type="submit" value="Create" class="btn btn-primary"/>
+
+</form>
+{%endblock%}

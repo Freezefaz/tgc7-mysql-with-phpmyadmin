@@ -32,3 +32,5 @@ The primary key must be "unsigned" (under attributes), "auto increment" (chec)
 4. Have to install the py file -> pip3 install .py in the specific folder
 
 5. To execute command python3 .py
+
+6. To import new database -> mysql -u root < .sql
